@@ -1,0 +1,223 @@
+*{
+	margin: 0; padding: 0;box-sizing: border-box; font-family: 'Times new roman',sans-serif;
+}
+header{
+	width: 100%;height: 100vh;
+	background-image: url(./images/back.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+nav{
+	width: 100%; height: 15vh;
+	background: rgba(0, 0,0, 0.2);
+	color: grey; display: flex; justify-content: space-between;
+	align-items: center; text-transform: uppercase;
+}
+nav .logo{
+	width: 25%; text-align: center;
+	text-shadow: grey;
+}
+nav .menu{
+	width: 40%;
+	display: flex;justify-content: space-around;
+
+}
+nav .menu a{
+width: 25%;
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+main
+{
+	width: 100%;
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+}
+
+.menu:hover a {
+	color: #009970;
+}
+
+.back button 
+{
+	color: black;
+	border-radius: 60px;
+	border-radius: none;
+	cursor: pointer;
+	display: inline-block;
+
+	padding-left: 1rem;
+	padding-right: 1rem;
+	background-color: whitesmoke;
+	font-size: 2.5rem;
+  
+}
+button:hover
+{
+	color: #2ba805;
+	
+}
+
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card p {
+  margin: 0 20px 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+.card: hover {
+	color: whitesmoke;
+}
+
+.banner-text{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	color: #fff;
+}
+
+.box{
+	font-size: 50px;
+	font-weight: bold;
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-family: century gothic;
+}
+
+.b1{
+	animation: ani1 10s infinite;
+}
+.b2{
+	animation: ani2 10s infinite;
+}
+.b3{
+	animation: ani3 10s infinite;
+}
+.b4{
+	animation: ani4 10s infinite;
+}
+.b5{
+	animation: ani5 10s infinite;
+}
+
+@keyframes ani1{
+	0%{
+		opacity: 0;
+	}
+	10%{
+		opacity: 1;
+	}
+	20%{
+		opacity: 0;
+	}
+}
+
+@keyframes ani2{
+	20%{
+		opacity: 0;
+	}
+	30%{
+		opacity: 1;
+	}
+	40%{
+		opacity: 0;
+	}
+}
+
+@keyframes ani3{
+	40%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	60%{
+		opacity: 0;
+	}
+}
+
+@keyframes ani4{
+	60%{
+		opacity: 0;
+	}
+	70%{
+		opacity: 1;
+	}
+	80%{
+		opacity: 0;
+	}
+}
+
+@keyframes ani5{
+	80%{
+		opacity: 0;
+	}
+	90%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
